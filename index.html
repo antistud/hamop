@@ -15,7 +15,21 @@
         <!--[if lt IE 9]>
                 <script src="js/html5shiv.js"></script>            
                 <script src="js/respond.min.js"></script>                   
-        <![endif]-->         
+        <![endif]-->   
+        <style>
+            .image-fade {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .8s ease;
+  backface-visibility: hidden;
+}
+
+.container-fade:hover .image-fade {
+  opacity: 0;
+}
+        </style>      
     </head>
 
     <body class="page-template-onepage">
@@ -82,12 +96,15 @@
                 <!-- Home -->    
                 <div id="home" class="section full-screen full-width">
                     <div class="section-wrapper block content-1170 center-relative">
-                        <div class="content-wrapper">
-                            <img src="HAMOPLOGO.png" style="max-width:900px; width: 90%" alt="" class="center-relative block" >
+                        <div class="content-wrapper container-fade">
+                            <div class="image-fade">
+                                <img  src="HAMOPLOGO.png" style="max-width:900px; width: 90%" alt="" class="center-relative block " >
                             <h1 class="big-text center">
                                 Building unity among Christ's followers
                           
-                            </h1>
+                            </h1> 
+                            </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -366,8 +383,8 @@
                                                 </td>
                                                 <td style="border: 0px;padding:5px;font-size: 20px;font-weight: 700;vertical-align: top;">
                                                     We meet the 1st Wednesday each month
-                                                    from 12:00 noon to 1:00pm at the 
-                                                    Pastime Bowl for lunch and fellowship.
+                                                    from 12:00 noon to 1:00pm at 
+                                                    835 S. Burlington, conference room for lunch and fellowship.
                                                 </td>
                                             </tr>
                                         </table>
@@ -442,9 +459,11 @@
                         <a href="mailto:hello@site.com">hello@cocobasic.com</a>
                     </div> -->
                     <div class="footer-number">
-                        
-                              Ken Pittz <br>Chairman<br><a href="tel:4024617803">402-461-7803</a><br><br><br>
-                             Dan Saalfeld <br>Vice Chair<br> <a href="tel:4024600612">402-460-0612</a>
+                          <h3>Board Members</h3>
+                              Ken Pittz <br>Chairman<br><br><br>
+                             Dan Saalfeld <br>Secretary<br> <br><br>
+                             Steve Hansen<br>Treasurer<br><br>
+                             Jack Flanigan <br>Member At Large <br><br>
                         
                     </div>
                     <div class="footer-info"> 
